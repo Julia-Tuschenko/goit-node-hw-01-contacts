@@ -1,0 +1,33 @@
+{
+  "name": "goit-node-hw-01-contacts",
+  "version": "1.0.0",
+  "description": "node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julia-Tuschenko/goit-node-hw-01-contacts.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Julia-Tuschenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julia-Tuschenko/goit-node-hw-01-contacts/issues"
+  },
+  "homepage": "https://github.com/Julia-Tuschenko/goit-node-hw-01-contacts#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16"
+  }
+}
